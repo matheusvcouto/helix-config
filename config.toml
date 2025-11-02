@@ -1,0 +1,21 @@
+theme = "carbon"
+
+[editor]
+line-number = "relative"
+cursorline = true # realça a linha atual
+end-of-line-diagnostics = "hint"
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.lsp]
+display-inlay-hints = true
+inlay-hints-length-limit = 33
+
+# [keys.insert]
+# "C-space" = "completion"
+
+[keys.insert]
+C-space = "completion"
