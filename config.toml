@@ -14,8 +14,8 @@ select = "underline"
 display-inlay-hints = true
 inlay-hints-length-limit = 33
 
-# [keys.insert]
-# "C-space" = "completion"
+[editor.inline-diagnostics]
+cursor-line = "hint"  # Mostra erros inline na linha do cursor principal. Use "warning" para incluir warnings, ou "hint" para todos.
 
 [keys.insert]
 C-space = "completion"
