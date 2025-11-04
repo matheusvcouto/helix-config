@@ -1,0 +1,15 @@
+[[language]]
+name = "typescript"
+# language-servers = [{ name = "typescript-language-server", only-features = ["inlay-hints"] }]
+language-servers = ["typescript-language-server"]
+
+[language-server.typescript-language-server]
+command = "typescript-language-server"
+config.preferences.includeInlayVariableTypeHints = true
+config.preferences.includeInlayFunctionLikeReturnTypeHints = true
+
+config.preferences.includeInlayFunctionParameterTypeHints = false
+config.preferences.includeInlayParameterNameHints = "none"
+
+config.preferences.includeInlayVariableTypeHintsWhenTypeMatchesName = true  
+config.typescript.preferences.includeInlayPropertyDeclarationTypeHints = true  # Força hints em const/let declarations
