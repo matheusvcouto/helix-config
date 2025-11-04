@@ -19,3 +19,11 @@ cursor-line = "hint"  # Mostra erros inline na linha do cursor principal. Use "w
 
 [keys.insert]
 C-space = "completion"
+# C-k = "signature_help"
+C-left = "move_prev_word_start"
+C-right = "move_next_word_start"
+C-backspace = "delete_word_backward"
+C-h = "delete_word_backward"
+C-del = "delete_word_forward"
+C-l = "delete_word_forward"
+C-z = "undo"
