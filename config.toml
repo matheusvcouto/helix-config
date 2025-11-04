@@ -17,6 +17,9 @@ inlay-hints-length-limit = 33
 [editor.inline-diagnostics]
 cursor-line = "hint"  # Mostra erros inline na linha do cursor principal. Use "warning" para incluir warnings, ou "hint" para todos.
 
+[keys.normal.space]
+l = ":toggle lsp.display-inlay-hints"
+
 [keys.insert]
 C-space = "completion"
 # C-k = "signature_help"
